@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie ie6 lte9 lte8 lte7"><![endif]-->
+<!--[if IE 7]><html class="ie ie7 lte9 lte8 lte7"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8"><![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9"><![endif]-->
+<!--[if gt IE 9]><html><![endif]-->
+<!--[if !IE]><!--><html><!--<![endif]-->
+    <head>
+        <meta charset="UTF-8">
+        <title>HealthPartners - Home</title>
+        <meta name="viewport" content="width=980">
+        <meta name="description" content="">
+        <meta name="author" content="HealthPartners">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <link href="http://healthpartners.com/ucm/groups/public/documents/webasset/my!!css!!my-global.css" rel="stylesheet" charset="UTF-8" />
+        <link href="http://healthpartners.com/ucm/groups/public/documents/documents/my!!css!!my-content.css" rel="stylesheet" charset="UTF-8" />
+        <!-- IE 4095 selector overflow -->
+        <!--[if lte IE 9]>
+        <link href="http://healthpartners.com/ucm/groups/public/documents/webasset/my!!css!!my-global-ie.css" rel="stylesheet" charset="UTF-8" />
+        <![endif]-->
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://healthpartners.com/ucm/groups/public/@hp/@public/documents/webasset/my!!js!!html5shiv.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="http://healthpartners.com/ucm/groups/public/@hp/@public/documents/webasset/my!!js!!jquery-bundle-1.9.1.js"></script>
+        <script>
+            var sessionTimeout = 1320;
+            var sessionPingUrl = '/my/home/ping.txt';
+
+            if (document.cookie.indexOf('HighContrast=true') > -1) {
+                document.write('<link href="http://healthpartners.com/ucm/groups/public/@hp/@public/documents/webasset/my!!css!!my-global_hc.css" rel="stylesheet" charset="UTF-8" />');
+
+                if (navigator.appVersion.indexOf("MSIE") > -1) {
+                	document.write('<link href="http://healthpartners.com/ucm/groups/public/@hp/@public/documents/webasset/my!!css!!my-global_hc-ie.css" rel="stylesheet" charset="UTF-8" />');
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="info-bar" class="info-bar">
+            <p class="no-margin"><a class="trackable" href="/my/welcome">Take a tour</a> of the features of the site.</p>
+        </div>
+        <div class="pad-top jumbo"></div>
+        <header>
+            <div id="logo" class="container logo">
+                <div class="row">
+                    <div class="span4">
+                        <a href="/my/home/" id="headerLogo" class="brand trackable"></a>
+                    </div>
+                    <div class="span8">
+                        <p class="welcome">
+                            <strong>Hello, Jonathan D. Benner</strong>
+                            <br>
+                            Member ID: 52856225
+                            <a class="feature-MemberIDCard trackable" href="/my/id-card/">Get ID card</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="container">
+                    <div id="secondary-nav" class="secondary-nav">
+                        <ul class="nav nav-pills pull-right">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Account settings <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/my/account/manageMyAccount.html" class="trackable">Account information</a></li>
+                                    <li><a href="/my/account/contact/myContactInfo.html" class="trackable">Contact information</a></li>
+                                    <li><a href="/my/account/communication/documents.html" class="trackable">Communication preferences</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="feature-MemberContact trackable" href="/ec/contactUs.do?dispatch=contactUs&amp;skin=member">Contact us</a></li>
+                            <li><a class="feature-Logout trackable" target="" href="/public/login/logout.html">Log off</a></li>
+                        </ul>
+                    </div>
+                    <div id="main-nav" class="main-nav">
+                        <form class="search-form pull-right" id="searchForm" action="/my/search/">
+                            <label for="qs">Search</label>
+                            <input type="text" class="input-medium search-query" name="qs" id="qs">
+                            <button type="submit" class="btn btn-small btn-primary"><i class="ss-search"></i></button>
+                        </form>
+                        <ul class="nav nav-tabs">
+                            <li class="active">
+                                <a href="/my/home/site/home" class="trackable">Home</a>
+                                <div class="pointer"></div>
+                            </li>
+                            <li><a href="/my/home/site/get-care" class="trackable">Get care</a></li>
+                            <li><a href="/my/home/site/health-records" class="trackable">Health records</a></li>
+                            <li><a href="/my/home/site/pharmacy" class="trackable">Pharmacy</a></li>
+                            <li><a href="/my/home/site/my-plan" class="trackable">My plan</a></li>
+                            <li><a href="/my/home/site/wellbeing" class="trackable">Well-being</a></li>
+                        </ul>
+                        <div class="separator"></div>
+                        <div class="ribbon">
+                            <div class="row-fluid">
+                                <div class="span7">
+                                    <ul class="unstyled">
+                                        <li><a class="feature-MemberClaims trackable" href="/my/claims/">My Claims</a></li>
+                                        <li><a class="feature-MemberBenefits trackable" href="/my/benefits/">My plan benefits</a></li>
+                                        <li><a class="feature-RefillPrescription trackable" href="/my/pharmacy/refill/">Refill a prescription</a></li>
+                                    </ul>
+                                </div>
+                                <div class="span5">
+                                    <div class="contact pull-right">
+                                        <p id="phone-numbers" class="phone ">CareLine: 612-339-3663<br>Member Services: 952-883-5000</p>
+                                        <a href="/my/inbox/" class="email btn btn-primary btn-small trackable">
+                                        <i class="ss-mail"></i>
+                                        Inbox
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container main">
+            <h1>Sup test</h1>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="span3">
+                        <p class="copyright"><small>&copy; 2013 HealthPartners</small></p>
+                    </div>
+                    <div class="span9">
+                        <ul class="nav nav-pills">
+                            <li><a href="/my/privacy/" class="trackable">Privacy</a></li>
+                            <li><a href="/my/terms/" class="trackable">Terms</a></li>
+                            <li id="highContrastToggle" class="pull-right"><a class="high-contrast trackable" href="javascript:void(0);">High contrast mode</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="http://healthpartners.com/ucm/groups/public/@hp/@public/documents/webasset/my!!js!!my-app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+.container.main {
+	margin-top: 80px;
+}
+
+#editor {
+	height: 500px;
+}
+
+#previewFrame {
+	display: block;
+	margin: 0 auto 0;
+	border: 1px solid #585858;
+}
+
+.container.mockups.horizontal #editor {
+	width: 49%;
+	float: left;
+}
+
+.container.mockups.horizontal #previewFrame {
+	width: 51% !important;
+	border-left: 2px solid #585858;
+	float: left;
+}
+
+.pad-top {
+  padding-top: 15px;
+}
+.pad-top.micro {
+  padding-top: 2px;
+}
+.pad-top.mini {
+  padding-top: 4px;
+}
+.pad-top.small {
+  padding-top: 8px;
+}
+.pad-top.medium {
+  padding-top: 11px;
+}
+.pad-top.large {
+  padding-top: 23px;
+}
+.pad-top.extra-large {
+  padding-top: 35px;
+}
+.pad-top.jumbo {
+  padding-top: 45px;
+}
+.pad-top.extra-jumbo {
+  padding-top: 55px;
+}
+.pad-bottom {
+  padding-bottom: 15px;
+}
+.pad-bottom.micro {
+  padding-bottom: 2px;
+}
+.pad-bottom.mini {
+  padding-bottom: 4px;
+}
+.pad-bottom.small {
+  padding-bottom: 8px;
+}
+.pad-bottom.medium {
+  padding-bottom: 11px;
+}
+.pad-bottom.large {
+  padding-bottom: 23px;
+}
+.pad-bottom.extra-large {
+  padding-bottom: 35px;
+}
+.pad-bottom.jumbo {
+  padding-bottom: 45px;
+}
+.pad-bottom.extra-jumbo {
+  padding-bottom: 55px;
+}
+.pad-left {
+  padding-left: 15px;
+}
+.pad-left.micro {
+  padding-left: 2px;
+}
+.pad-left.mini {
+  padding-left: 4px;
+}
+.pad-left.small {
+  padding-left: 8px;
+}
+.pad-left.medium {
+  padding-left: 11px;
+}
+.pad-left.large {
+  padding-left: 23px;
+}
+.pad-left.extra-large {
+  padding-left: 35px;
+}
+.pad-left.jumbo {
+  padding-left: 45px;
+}
+.pad-left.extra-jumbo {
+  padding-left: 55px;
+}
+.pad-right {
+  padding-right: 15px;
+}
+.pad-right.micro {
+  padding-right: 2px;
+}
+.pad-right.mini {
+  padding-right: 4px;
+}
+.pad-right.small {
+  padding-right: 8px;
+}
+.pad-right.medium {
+  padding-right: 11px;
+}
+.pad-right.large {
+  padding-right: 23px;
+}
+.pad-right.extra-large {
+  padding-right: 35px;
+}
+.pad-right.jumbo {
+  padding-right: 45px;
+}
+.pad-right.extra-jumbo {
+  padding-right: 55px;
+}
+
+@media (min-width: 768px) { .container { width: 98%; } }

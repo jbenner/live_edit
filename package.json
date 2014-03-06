@@ -1,0 +1,8 @@
+{
+  "name": "live_edit",
+  "description": "A quick live edit test",
+  "dependencies": {
+    "grunt-contrib-watch": "~0.5.0",
+    "grunt-contrib-connect": "~0.7.0"
+  }
+}

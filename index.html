@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/editor.css">
+
+        <script src="/js/jquery-1.11.0.js" type="text/javascript"></script>
+        <script src="/js/bootstrap.js" type="text/javascript"></script>
+    </head>
+    <body>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="about.html">About</a>
+                </li>
+                <li><a href="services.html">Services</a>
+                </li>
+                <li><a href="contact.php">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container mockups main">
+            <div class="row">
+                <div class="col-md-10">
+                    <label for="displayToggle">Display:</label>
+                    <select id="displayToggle" name="displayToggle">
+                        <option value="v">Vertical</option>
+                        <option value="h">Horizontal</option>
+                    </select>
+                    <label for="wrapToggle">Line wrap:</label>
+                    <select id="wrapToggle" name="wrapToggle">
+                        <option value="off">Off</option>
+                        <option value="auto">Auto</option>
+                    </select>
+                    <label for="themeToggle">Theme:</label>
+                    <select id="themeToggle" name="themeToggle">
+                        <option value="ambiance">Ambiance</option>
+                        <option value="chrome">Chrome</option>
+                        <option value="eclipse">Eclipse</option>
+                        <option value="github">Github</option>
+                        <option value="merbivore">Merbivore</option>
+                        <option value="clouds_midnight">Midnight</option>
+                        <option value="monokai">Monokai</option>
+                        <option value="terminal">Terminal</option>
+                        <option value="tomorrow_night">Tomorrow night</option>
+                        <option value="xcode">Xcode</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <a href="javascript:void(0);" class="btn btn-primary btn-small btn-refresh pull-right pad-left">Reset</a>
+                    <!--
+                    <a href="javascript:void(0);" class="btn btn-primary btn-small btn-save pull-right">Save</a>
+                     -->
+                </div>
+            </div>
+            <div id="editor" class="hide"></div>
+        </div>
+    </body>
+
+    <script src="/js/require.js" type="text/javascript"></script>
+    <script src="/js/editor.js" type="text/javascript"></script>
+</html>
